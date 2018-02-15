@@ -52,10 +52,6 @@ class iso4CallService:
   QgsMessageLog.logMessage('canvasReleaseEvent start', 'iso4app')
   point = self.canvas.getCoordinateTransform().toMapPoint(self.pointTriggered.x(),self.pointTriggered.y())
   pointc = self.canvas.getCoordinateTransform().toMapCoordinates(self.pointTriggered.x(),self.pointTriggered.y())
-  cord = float(point.toString().split(',')[0])
-  ycord = float(point.toString().split(',')[1])
-  xcordC = float(pointc.toString().split(',')[0])
-  ycordC = float(pointc.toString().split(',')[1])
   
   lng=self.pointTriggered.x()
   lat=self.pointTriggered.y()
@@ -71,8 +67,6 @@ class iso4CallService:
    
   if self.dlg.checkBoxLogging.isChecked():
    QgsMessageLog.logMessage('canvasReleaseEvent lng:'+repr(lng)+' lat:'+repr(lat)+ ' pt.y:'+repr(pt.y())+ ' pt.x:'+repr(pt.x()), 'iso4app')
-   QgsMessageLog.logMessage('canvasReleaseEvent xcord:'+repr(xcord)+' ycord:'+repr(ycord), 'iso4app')
-   QgsMessageLog.logMessage('canvasReleaseEvent xcord:'+repr(xcordC)+' ycord:'+repr(ycordC), 'iso4app')
   
   #chiamata al servizio iso4app  rest
   aiKey=self.dlg.lineApiKey.text()

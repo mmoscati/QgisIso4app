@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>359</width>
-    <height>566</height>
+    <width>382</width>
+    <height>605</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QDialogButtonBox" name="button_box">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>530</y>
+     <x>160</x>
+     <y>560</y>
      <width>80</width>
      <height>40</height>
     </rect>
@@ -34,9 +34,14 @@
     <rect>
      <x>20</x>
      <y>10</y>
-     <width>321</width>
-     <height>71</height>
+     <width>351</width>
+     <height>81</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
    </property>
    <property name="title">
     <string>Isoline Type</string>
@@ -48,10 +53,15 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>17</y>
-      <width>91</width>
+      <y>20</y>
+      <width>151</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>ISOCHRONE</string>
@@ -67,10 +77,15 @@
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>17</y>
-      <width>91</width>
+      <y>20</y>
+      <width>151</width>
       <height>17</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>ISODISTANCE</string>
@@ -83,8 +98,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>40</y>
-      <width>100</width>
+      <y>50</y>
+      <width>141</width>
       <height>22</height>
      </rect>
     </property>
@@ -96,8 +111,8 @@
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>40</y>
-      <width>101</width>
+      <y>50</y>
+      <width>141</width>
       <height>22</height>
      </rect>
     </property>
@@ -107,10 +122,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>90</y>
-     <width>321</width>
-     <height>101</height>
+     <y>100</y>
+     <width>351</width>
+     <height>110</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
    </property>
    <property name="title">
     <string>Common parameters</string>
@@ -118,9 +138,9 @@
    <widget class="QComboBox" name="comboTravelType">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>15</y>
-      <width>161</width>
+      <x>210</x>
+      <y>20</y>
+      <width>131</width>
       <height>22</height>
      </rect>
     </property>
@@ -132,9 +152,9 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>20</y>
-      <width>81</width>
-      <height>16</height>
+      <y>26</y>
+      <width>161</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
@@ -145,10 +165,15 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>40</y>
-      <width>121</width>
+      <y>50</y>
+      <width>181</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Start point approximation</string>
@@ -157,9 +182,9 @@
    <widget class="QComboBox" name="comboApprox">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>40</y>
-      <width>161</width>
+      <x>210</x>
+      <y>50</y>
+      <width>131</width>
       <height>22</height>
      </rect>
     </property>
@@ -168,7 +193,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>70</y>
+      <y>80</y>
       <width>111</width>
       <height>17</height>
      </rect>
@@ -180,9 +205,9 @@
    <widget class="QCheckBox" name="checkBoxRestrictedArea">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>70</y>
-      <width>151</width>
+      <x>130</x>
+      <y>80</y>
+      <width>211</width>
       <height>17</height>
      </rect>
     </property>
@@ -198,10 +223,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>400</y>
-     <width>321</width>
+     <y>430</y>
+     <width>351</width>
      <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
    </property>
    <property name="title">
     <string>Curve attribute</string>
@@ -211,7 +241,7 @@
      <rect>
       <x>20</x>
       <y>23</y>
-      <width>61</width>
+      <width>71</width>
       <height>16</height>
      </rect>
     </property>
@@ -222,9 +252,9 @@
    <widget class="QComboBox" name="comboConcavity">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>20</y>
-      <width>81</width>
+      <width>71</width>
       <height>22</height>
      </rect>
     </property>
@@ -232,9 +262,9 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>22</y>
-      <width>51</width>
+      <width>71</width>
       <height>16</height>
      </rect>
     </property>
@@ -245,7 +275,7 @@
    <widget class="QComboBox" name="comboBuffering">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>270</x>
       <y>20</y>
       <width>61</width>
       <height>22</height>
@@ -257,10 +287,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>200</y>
-     <width>321</width>
+     <y>220</y>
+     <width>351</width>
      <height>111</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
    </property>
    <property name="title">
     <string>Isochrone parameters</string>
@@ -281,7 +316,7 @@
    <widget class="QComboBox" name="comboSpeedType">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>170</x>
       <y>20</y>
       <width>161</width>
       <height>22</height>
@@ -293,7 +328,7 @@
      <rect>
       <x>20</x>
       <y>50</y>
-      <width>121</width>
+      <width>141</width>
       <height>16</height>
      </rect>
     </property>
@@ -304,7 +339,7 @@
    <widget class="QLineEdit" name="lineSpeed">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>170</x>
       <y>50</y>
       <width>41</width>
       <height>20</height>
@@ -316,7 +351,7 @@
      <rect>
       <x>20</x>
       <y>80</y>
-      <width>151</width>
+      <width>251</width>
       <height>17</height>
      </rect>
     </property>
@@ -327,23 +362,22 @@
    <widget class="QLabel" name="labelInfo">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>49</y>
-      <width>111</width>
-      <height>41</height>
+      <x>220</x>
+      <y>50</y>
+      <width>121</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <weight>75</weight>
-      <bold>true</bold>
+      <pointsize>7</pointsize>
      </font>
-    </property>
-    <property name="lineWidth">
-     <number>1</number>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -354,10 +388,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>320</y>
-     <width>321</width>
-     <height>71</height>
+     <y>340</y>
+     <width>351</width>
+     <height>81</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
    </property>
    <property name="title">
     <string>Specific pedestrian and bike parameters</string>
@@ -369,8 +408,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>20</y>
-      <width>191</width>
+      <y>30</y>
+      <width>321</width>
       <height>17</height>
      </rect>
     </property>
@@ -388,8 +427,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>40</y>
-      <width>221</width>
+      <y>50</y>
+      <width>321</width>
       <height>17</height>
      </rect>
     </property>
@@ -405,14 +444,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>513</y>
-     <width>321</width>
+     <y>540</y>
+     <width>351</width>
      <height>21</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>MS Shell Dlg 2</family>
+     <pointsize>7</pointsize>
     </font>
    </property>
    <property name="lineWidth">
@@ -432,10 +472,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>460</y>
-     <width>261</width>
+     <y>490</y>
+     <width>351</width>
      <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
    </property>
    <property name="title">
     <string>API KEY</string>
@@ -445,40 +490,32 @@
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>231</width>
+      <width>311</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
     </property>
     <property name="toolTip">
      <string>Set a valid API-Key</string>
     </property>
    </widget>
   </widget>
-  <widget class="QGroupBox" name="groupBox_5">
+  <widget class="QCheckBox" name="checkBoxLogging">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>460</y>
-     <width>51</width>
-     <height>51</height>
+     <x>300</x>
+     <y>570</y>
+     <width>61</width>
+     <height>20</height>
     </rect>
    </property>
-   <property name="title">
-    <string>Logging</string>
+   <property name="text">
+    <string>Log</string>
    </property>
-   <widget class="QCheckBox" name="checkBoxLogging">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>20</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
   </widget>
  </widget>
  <resources/>
