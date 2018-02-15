@@ -148,7 +148,6 @@ class MainPlugin(object):
    apiKey='87B7FB96-83DA-4FBD-A312-7822B96BB143'
   self.dlg.lineApiKey.setText(apiKey)
   rbIsochrone=s.value("iso4app/rbIsochrone", True)
-  QgsMessageLog.logMessage('rbIsochrone:'+rbIsochrone, 'iso4app')
   if rbIsochrone=='true':
    self.dlg.radioButtonIsochrone.setChecked(True)
    self.dlg.radioButtonIsodistance.setChecked(False)
