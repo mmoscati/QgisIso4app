@@ -8,7 +8,7 @@
 
 [general]
 name=iso4app
-qgisMinimumVersion=2.0
+qgisMinimumVersion=2.18.16
 description=iso4app isochrone/isodistance
 version=0.1
 author=Maurizio Moscati K-SOL SRL
